@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+	border: 1px solid white;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #d3c0aa;
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+	font-family: Montserrat;
+}
+main {
+	margin: auto;
+	margin-top: 80px;
+	width: 50%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+#logo {
+
+}
+#contact {
+	font-size: 50px;
+	text-align: center;
+
+}
+#contact span{
+	font-size: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+	main {
+		width: 90%;
+	}
+
+}
