@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-* {
-	border: 1px solid white;
+
+html {
+	font-size: 16px;
 }
 body {
 	width: 100%;
@@ -14,6 +15,7 @@ main {
 	margin: auto;
 	margin-top: 80px;
 	width: 50%;
+	text-align: center;
 }
 img {
 	max-width: 100%;
@@ -23,12 +25,11 @@ img {
 
 }
 #contact {
-	font-size: 50px;
-	text-align: center;
+	font-size: 3rem;
 
 }
 #contact span{
-	font-size: 30px;
+	font-size: 2rem;
 }
 
 @media only screen and (max-width: 1024px) {
